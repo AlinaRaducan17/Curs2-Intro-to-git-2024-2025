@@ -4,3 +4,16 @@ git init
 ## descarca de pe server un proiect de git
 git clone https://github.com/username/project
 
+## arata lista de commituri
+git log
+git log --oneline
+
+## arata statusul fisierelor
+git status
+git status -s
+
+##comenzi de creare a commitului
+git add filename
+git add . - add all
+git add filename.*
+git add filename1 filename2 filename3
