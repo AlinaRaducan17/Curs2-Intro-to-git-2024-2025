@@ -1,3 +1,13 @@
+#setare nume utilizator
+git config --global user.name "Numele meu"
+#pt verificare nume setat
+git config --global user.name 
+
+#setare email utilizator
+git config --global user.email "emailulmeu@..."
+#verificare email setat
+git config --global user.email
+
 #initializeaza proiectul de git local - creeaza un folder .git ascuns
 git init
 
@@ -17,3 +27,5 @@ git add filename
 git add . - add all
 git add filename.*
 git add filename1 filename2 filename3
+
+git commit -am - merge doar pt fisiere tracked, care au fost add inainte; am este pentru add si commit in acelasi pas
