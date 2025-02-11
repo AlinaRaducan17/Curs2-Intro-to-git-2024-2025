@@ -22,10 +22,15 @@ git log --oneline
 git status
 git status -s
 
-##comenzi de creare a commitului
+##comenzi de adaugare a fisierelor in stage; adica inainte de commit
 git add filename
 git add . - add all
 git add filename.*
 git add filename1 filename2 filename3
 
-git commit -am - merge doar pt fisiere tracked, care au fost add inainte; am este pentru add si commit in acelasi pas
+#comenzi de creare a commitului
+git commit -m "acesta este un mesaj descriptiv al versiunii"
+git commit --message "acesta e un mesaj descriptiv"
+
+##comanda de adaugare  + commit
+git commit -am - merge doar pt fisiere tracked, care au fost add inainte si incluse intr-un commit inainte; am este pentru add si commit in acelasi pas
